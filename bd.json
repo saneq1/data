@@ -8,7 +8,7 @@
       "id": 2,
       "title": "get"
     },
-   {
+    {
       "id": 3,
       "title": "put"
     }
@@ -17,19 +17,19 @@
     "name": "typicode",
     "old": "12"
   },
-   "objObj": {
-    {
-      "id": 1,
-      "title": "post"
-    },
-    {
-      "id": 2,
-      "title": "get"
-    },
-   {
-      "id": 3,
-      "title": "put"
-    }
-  },
-"array":["put", "get", "post"],
+  "objObj": {
+"get": {
+  "id": 1,
+  "title": "post"
+},
+"post": {
+"id": 2,
+"title": "get"
+},
+"put":{
+"id": 3,
+"title": "put"
+}
+},
+"array":["put", "get", "post"]
 }
